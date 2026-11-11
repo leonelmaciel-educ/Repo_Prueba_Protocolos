@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartRoast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="https://static.vecteezy.com/system/resources/thumbnails/044/775/655/small/coffee-bean-isolated-on-transparent-background-png.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <h1>Descubrí el Mejor Café del Mundo</h1>
+      <p>
+        Suscribite a Coffee Club y recibí cafés seleccionados
+        directamente en tu casa todos los meses.
+      </p>
+      <a href="#planes" class="btn">Ver Planes</a>
+    </div>
+  </header>
+
+    <nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+    </ul>
+</nav>
+
+    <div class="auth-controls">
+        <button id="btnLogin" class="btn">Iniciar sesión</button>
+        <div id="userPanel">
+            <span id="userName" class="user-name"></span>
+            <button id="btnLogout" class="btn">Salir</button>
+        </div>
+    </div>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenido a SmartRoast</h2>
+
+            <p>
+                En SmartRoast creemos que un buen café crea grandes momentos.
+                Por eso ofrecemos una experiencia pensada para que nuestros
+                clientes siempre quieran volver.
+            </p>
+
+            <p>
+                Disfruta de bebidas artesanales, atención personalizada y
+                beneficios exclusivos para miembros frecuentes.
+            </p>
+        </section>
+
+        <section id="variedades">
+            <h2>Variedades de Café Importado</h2>
+            <div class="tabla-contenedor">
+                <table class="tabla-cafes">
+                    <thead>
+                        <tr>
+                            <th>Origen</th>
+                            <th>Variedad</th>
+                            <th>Notas</th>
+                            <th>Precio (250g)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Brasil</td>
+                            <td>Santos Oro</td>
+                            <td>Chocolate y nuez</td>
+                            <td class="precio-celda">$8.500</td>
+                        </tr>
+                        <tr>
+                            <td>Colombia</td>
+                            <td>Excelso Tradición</td>
+                            <td>Frutado y suave</td>
+                            <td class="precio-celda">$9.200</td>
+                        </tr>
+                        <tr>
+                            <td>Etiopía</td>
+                            <td>Sidamo Gourmet</td>
+                            <td>Floral y cítrico</td>
+                            <td class="precio-celda">$11.500</td>
+                        </tr>
+                        <tr>
+                            <td>Brasil</td>
+                            <td>Bourbon Amarillo</td>
+                            <td>Dulce y meloso</td>
+                            <td class="precio-celda">$8.900</td>
+                        </tr>
+                        <tr>
+                            <td>Colombia</td>
+                            <td>Huila Especial</td>
+                            <td>Caramelo intenso</td>
+                            <td class="precio-celda">$9.800</td>
+                        </tr>
+                        <tr>
+                            <td>Costa Rica</td>
+                            <td>Tarrazú</td>
+                            <td>Cacao y miel</td>
+                            <td class="precio-celda">$10.500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="beneficios">
+            <h2>Beneficios para clientes</h2>
+
+            <article>
+                <h3>Programa de puntos</h3>
+                <p>
+                    Cada compra suma puntos que pueden canjearse por bebidas
+                    y promociones especiales.
+                </p>
+            </article>
+
+            <article>
+                <h3>Descuentos exclusivos</h3>
+                <p>
+                    Los clientes registrados reciben ofertas y descuentos
+                    personalizados.
+                </p>
+            </article>
+
+            <article>
+                <h3>Atención personalizada</h3>
+                <p>
+                    Nuestro equipo busca brindar una experiencia cómoda y
+                    cercana en cada visita.
+                </p>
+            </article>
+            
+        </section>
+        <section id="planes">
+    <h2 class="section-title">Nuestros Planes</h2>
+
+    <div class="pricing">
+
+      <div class="card">
+        <h3>Básico</h3>
+        <div class="basico">$0</div>
+
+        <ul>
+          <li>250g de café premium</li>
+          <li>1 variedad por mes</li>
+          <li>Envío estándar</li>
+          <li>Acceso al newsletter</li>
+        </ul>
+
+        <a href="#" class="btn">Suscribirme</a>
+      </div>
+
+     <div class="card premium">
+    <span class="ribbon">Mas Popular</span>
+
+    <h3>Explorer</h3>
+    <div class="basico">$17.999</div>
+
+    <ul>
+        <li>500g de café premium</li>
+        <li>2 variedades exclusivas</li>
+        <li>Guía de degustación</li>
+        <li>Envío prioritario</li>
+    </ul>
+
+    <a href="#" class="btn">Suscribirme</a>
+</div>
+
+      <div class="card">
+        <h3>Premium</h3>
+        <div class="basico">$29.999</div>
+
+        <ul>
+          <li>1kg de café premium</li>
+          <li>Ediciones limitadas</li>
+          <li>Taza exclusiva de regalo</li>
+          <li>Beneficios VIP</li>
+        </ul>
+
+        <a href="#" class="btn">Suscribirme</a>
+      </div>
+
+    </div>
+  </section>
+<section>
+    <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+
+    <div class="testimonials">
+
+      <div class="testimonial">
+        <p>
+          “El mejor café que probé en años. La experiencia
+          de descubrir nuevos sabores todos los meses es increíble.”
+        </p>
+
+        <h4>— Sofía R.</h4>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          “El plan Explorer superó mis expectativas.
+          Excelente calidad y presentación.”
+        </p>
+
+        <h4>— Martín G.</h4>
+      </div>
+
+      <div class="testimonial">
+        <p>
+          “Soy fanático del café y el plan Premium es perfecto.
+          Vale totalmente la pena.”
+        </p>
+
+        <h4>— Lucía P.</h4>
+      </div>
+
+    </div>
+  </section>
+        <aside>
+            <h2>Comunidad SmartRoast</h2>
+            <p>
+                Únete a nuestra comunidad para recibir novedades y promociones
+                especiales.
+            </p>
+        </aside>
+ <section>
+    <h2 class="section-title">Preguntas Frecuentes</h2>
+
+    <div class="faq">
+
+      <div class="faq-item">
+        <h3>¿Puedo cancelar mi suscripción?</h3>
+        <p>
+          Sí, podés cancelarla en cualquier momento desde tu cuenta.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿Los envíos llegan a todo el país?</h3>
+        <p>
+          Sí, realizamos envíos a toda Argentina.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿Cómo se seleccionan los cafés?</h3>
+        <p>
+          Trabajamos con productores y tostadores especializados
+          para garantizar calidad premium.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>¿Puedo cambiar de plan?</h3>
+        <p>
+          Claro, podés actualizar o modificar tu plan cuando quieras.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+        <aside>
+            <h2>Comunidad SmartRoast</h2>
+            <p>
+                Únete a nuestra comunidad para recibir novedades y promociones
+                especiales.
+            </p>
+        </aside>
+
+    </main>
+
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: contacto@smartroast.com</p>
+        <p>Teléfono: +54 351 123 4567</p>
+        <p>&copy; 2026 SmartRoast - Todos los derechos reservados.</p>
+    </footer>
+
+<button id="btn-arriba">⮝</button>
+
+<script src="funciones.js"></script>
+
+</body>
+</html>
